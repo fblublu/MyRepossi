@@ -1,0 +1,107 @@
+html, body {
+    height:100%;
+}
+
+nav {
+    margin-top: 10px;
+    position: fixed;
+}
+
+.navbar a{
+    color: #000;
+}
+
+.navbar-nav > li > a {
+    margin-left: -20px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color:#000;
+    background-color: #fff;
+}
+
+nav a:hover {
+    color:#fff;
+    background-color: #000;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    color:#fff;
+    background-color: #000;
+}
+
+.slide1, .slide2, .slide3 {
+	height: 100%;  /*Must have a height or min-height set due to use of background images */
+	background-size: cover;
+    
+	background-position: center center ;
+}
+.slide1 {
+	background-image: url(http://www.repossi.com/wp-content/themes/repossi/img/home-random-images/repossi-campaign-image1.jpg);
+}
+.slide2 {
+	background-image: url(http://www.repossi.com/wp-content/themes/repossi/img/home-random-images/repossi-campaign-image2.jpg);
+}
+.slide3 {
+    background-image: url(http://www.repossi.com/wp-content/themes/repossi/img/home-random-images/repossi-campaign-image3.jpg);
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+	-webkit-transition: opacity 2s linear;
+	-moz-transition: opacity 2s linear;
+	-ms-transition: opacity 2s linear;
+	-o-transition: opacity 2s linear;
+	transition: opacity 2s linear;
+	opacity: .5;
+}
+.carousel.carousel-fade .active.item {
+	opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+	left: 0;
+	z-index: 2;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+/* Carousel Overlay */
+.carousel-overlay {
+	position: absolute;
+	bottom: 100px;
+	right: 0;
+	left: 0;
+}
+
+
+.row {
+    margin: 20px;
+}
+
+h3 {
+    margin: 20px;
+}
+#footer {
+    line-height: 40px;
+    text-align: center;
+}
+
+.radius {
+border-radius: 5%;
+}
+
+.mar {
+    margin-bottom: 10px;
+}
