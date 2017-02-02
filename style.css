@@ -93,9 +93,11 @@ nav a:hover {
 h3 {
     margin: 20px;
 }
+
 #footer {
     line-height: 40px;
     text-align: center;
+    
   
 }
 
@@ -120,3 +122,8 @@ h3 {
         0%{opacity:0}
         100%{opacity:1}
     }
+
+.text-muted a{
+    text-decoration: none;
+    color:#000;
+}
