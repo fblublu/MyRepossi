@@ -96,12 +96,27 @@ h3 {
 #footer {
     line-height: 40px;
     text-align: center;
+  
 }
 
 .radius {
-border-radius: 5%;
+    border-radius: 5%;
+    visibility: hidden;
 }
 
+
 .mar {
-    margin-bottom: 10px;
-}
+        
+        margin-bottom: 10px;
+    }
+
+.fadeIn {
+        -webkit-animation: animat_show 0.8s;
+        animation: animat_show 0.8s;
+        visibility: visible !important;
+    }
+
+@-webkit-keyframes animat_show{
+        0%{opacity:0}
+        100%{opacity:1}
+    }
